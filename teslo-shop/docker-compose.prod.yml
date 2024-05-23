@@ -6,11 +6,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      target: ${STAGE}
-    volumes:
-      - .:/app/
-      - /app/node_modules/
+      target: prod
     container_name: ${APP_NAME}
+    image: pierrechavez/teslo-shop:1.0.0
     ports:
       - ${PORT}:${PORT}
     environment:
