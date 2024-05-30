@@ -30,3 +30,5 @@ Ejecutar este comando
 ```
 docker compose -f docker-compose.prod.yml build
 ```
+
+teslo-testing % docker buildx build --platform linux/amd64,linux/arm64 -t pierrechavez/teslo-shop:1.1.0 --push .
