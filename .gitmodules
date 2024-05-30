@@ -1,0 +1,3 @@
+[submodule "docker-graphql"]
+	path = docker-graphql
+	url = https://github.com/PierreChavez/docker-graphql.git
